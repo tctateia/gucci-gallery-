@@ -1,0 +1,74 @@
+body {
+  font-family: 'Creepster', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c; 
+  color: #ff7518; 
+}
+
+header {
+  background-color: #222; 
+  color: #ff7518; 
+  padding: 1rem;
+  text-align: center;
+  text-shadow: 0px 0px 12px #ff7518; 
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+  color: #ff7518; 
+  text-shadow: 0px 0px 20px #ff7518;
+}
+
+.search-bar {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  width: 280px;
+  border: 2px solid #ff7518; 
+  border-radius: 5px;
+  background-color: #1a1a1a; 
+  color: #ff7518; 
+  box-shadow: 0px 0px 8px #ff7518; 
+}
+
+.search-bar button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: #222; 
+  color: #ff7518; 
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 0px 10px #ff7518; 
+}
+
+.search-bar button:hover {
+  background-color: #333; 
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.gallery-image {
+  margin: 0.5rem;
+  width: 200px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(255, 117, 24, 0.7); 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 6px 15px rgba(255, 117, 24, 1); 
+}
